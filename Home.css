@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.mainfor{
+  background-color: rgb(202, 203, 202);
+}
+.nav-link {
+  /* float: right; */
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.nav-link:hover {
+  color: red;
+  background-color: rgba(128, 128, 128, 0.078);
+}
+
+
+
+.name {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 1;
+  text-indent: -130px;
+  letter-spacing: 5px;
+}
+.mainer{
+  border-bottom: 3px groove red;
+}
+
+
+.expert{
+  letter-spacing: 3px;
+  
+}
+.little {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 5px;
+}
+
+.client {
+  /* font-size: 20px; */
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 5px;
+}
+
+.circular_image {
+  width: 420px;
+  overflow: hidden;
+  display: flex;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px;
+}
+
+.circular_image:hover {
+  scale: 1.03;
+}
+.circular_image1:hover {
+  scale: 1.1;
+  border: 1px solid red;
+}
+
+.circular_image img {
+  width: 100%;
+}
+.circular_image1 {
+  /* width: 300px; */
+  /* float: right; */
+  /* height: 300px; */
+  border-radius: 50%;
+  /* background-color: 2px solid red; */
+  /* border: 1px solid red; */
+  overflow: hidden;
+}
+  .crr{
+    float: left;
+  }
+
+  .weber{
+    float: left;
+    /* display: flex; */
+  }
+.PW {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.aa {
+  font-kerning: none;
+}
+
+.myhead {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* .proo{
+    height: 600px;
+    width: 100%;
+    background-color: red;
+  } */
+
+/* .imsa{
+    height: 394px;
+    width: 95%;
+  } */
+
+.ppp {
+  word-spacing: 7px;
+  /* letter-spacing: 1px; */
+  line-height: 30px;
+}
+
+.btn:hover {
+  color: red;
+  background-color: white;
+}
+
+.butt:hover {
+  background-color: black;
+  color: white;
+}
+
+.hhl {
+  font-size: 20px;
+  letter-spacing: 7px;
+}
+
+.bordd {
+  /* border: 1px solid black; */
+  border: 0;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.283);
+  background-color: rgba(128, 128, 128, 0.203);
+  float: left;
+}
+
+.projectphase{
+  float: left;
+}
+
+.asdf{
+  
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+footer {
+  border: 2px solid black;
+  font-weight: bold;
+  word-spacing: 10px;
+  letter-spacing: 6px;
+  background-color: rgba(128, 128, 128, 0.203);
+}
+
+.ebutton:hover{
+  background-color: aliceblue;
+}
+.bordd:hover {
+  
+  /* border: 1px solid black; */
+  border-bottom: 3px solid orangered;
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+  /* For tablets: */
+  .nav-link {
+    width: 100%;
+    padding: 10;
+    background-color: aliceblue;
+    display: grid;
+    text-align: center;
+  }
+
+  .circular-image{
+    float: right;
+  }
+ 
+}
+@media only screen and (max-width:550px) {
+  /* For tablets: */
+  .nav-link {
+    width: 100%;
+    padding: 10;
+    background-color: aliceblue;
+    display: grid;
+    text-align: center;
+  }
+
+  .circular-image{
+    float: right;
+  }
+ 
+}
+@media only screen and (max-width:884px) {
+  /* For tablets: */
+  .name  {
+    width: 100%;
+    padding: 10;
+  
+  }
+  .circular_image{
+    width: 80%;
+    /* margin: auto; */
+  }
+ 
+}
+@media only screen and (max-width:1024px) {
+  /* For tablets: */
+  .name  {
+    width: 60%;
+    font-size: 45px;
+    margin-top: 50px;
+  
+  }
+  .circular_image{
+    width: 37%;
+  }
+
+  .aboutphase{
+    text-wrap: wrap;
+  }
+  
+
+}
+@media only screen and (max-width:768px) {
+
+  .name{
+    font-size: 30px;
+    width: 50%;
+  }
+  .circular_image{
+    width: 45%;
+    /* margin-right: 10px; */
+  }
+
+    .nav-link {
+    width: 100%;
+    background-color: aliceblue;
+    /* display: grid; */
+    text-align: center;
+    
+  }
+ 
+}
+@media only screen and (max-width:600px) {
+
+  .name{
+    font-size: 20px;
+  }
+  .circular_image{
+    width: 35%;
+    margin-right: 100px;
+  }
+}
+
+  
+@media only screen and (max-width:480px) {
+  /* For tablets: */
+  .name  {
+    width: 100%;
+     font-size: 30px;
+  
+  }
+    .circular_image{
+    width: 80%;
+    margin: auto;
+  }
+ 
+ 
+}
+
+
+
